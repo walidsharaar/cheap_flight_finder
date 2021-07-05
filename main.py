@@ -31,7 +31,7 @@ six_month_from_today = datetime.now()+timedelta(days=(6*30))
 for destination in sheet_data:
     flight = flight_search.check_flights(
         ORIGIN_CITY_IATA,
-        destination["iatacode"],
+        destination["iataCode"],
         from_time=tomorrow,
         to_time = six_month_from_today
     )

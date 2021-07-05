@@ -1,4 +1,4 @@
-
+from flight_data import FlightData
 import requests
 
 TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
