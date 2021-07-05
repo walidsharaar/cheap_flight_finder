@@ -3,7 +3,7 @@ from twilio.rest import Client
 TWILIO_SID = "AC60595cef50f52688c7bdec2112342600"
 TWILIO_AUTH_TOKEN = "c9d059b0b7d9886029ea17a1905b49ef"
 TWILIO_VIRTUAL_NUMBER = "+15392860952"
-TWILIO_VERIFIED_NUMBER = "Verified Number"
+TWILIO_VERIFIED_NUMBER = "Verified Number "
 
 class NotificationManager:
     #This class is responsible for sending notifications with the deal flight details.

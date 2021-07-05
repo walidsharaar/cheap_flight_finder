@@ -29,7 +29,7 @@ class FlightSearch:
             "flight_type": "round",
             "one_for_city": 1,
             "max_stopovers": 0,
-            "curr": "GBP"
+            "curr": "EU"
         }
 
         response = requests.get(
@@ -53,5 +53,5 @@ class FlightSearch:
             out_date=data["route"][0]["local_departure"].split("T")[0],
             return_date=data["route"][1]["local_departure"].split("T")[0]
         )
-        print(f"{flight_data.destination_city}: £{flight_data.price}")
+        print(f"{flight_data.destination_city}: EU{flight_data.price}")
         return flight_data
